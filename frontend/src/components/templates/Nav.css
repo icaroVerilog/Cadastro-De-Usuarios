@@ -1,0 +1,18 @@
+aside.Menu-Area {
+    background-color: var(--bg-dark);
+    box-shadow:
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+.Menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 300;
+}
+
+.Menu a:hover {
+    background: linear-gradient(135deg, #05996b 0%, #074c59 100%);
+}
